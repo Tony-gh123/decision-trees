@@ -16,7 +16,7 @@ In my project, because test labels are not provided for the KDD CUP test set, I 
 | **Random Forest** | 0.694 | 0.160 | 0.831 | 0.174 | 0.347 | 0.232 | 0.471 | 0.471 | 0.506 |
 | **Custom Tree** | 0.609 | 0.107 | 0.722 | 0.112 | 0.401 | 0.175 | 0.946 | 0.594 | 0.564 |
 
-As expected, **XGBoost** achieved the top performance with an **AUC of 0.726**. This score indicates that in roughly 73% of cases, the model correctly assigns a higher risk score to a churner than to a non-churner. The **Random Forest** classifier followed at 0.694, while the **Custom Tree** classifier reached 0.609. All models demonstrated a clear signal above the random baseline (AUC = 0.5). 
+As expected, **XGBoost** achieved top performance with an **AUC of 0.726**. This score indicates that in roughly 73% of cases, the model correctly assigns a higher risk score to a churner than to a non-churner. The **Random Forest** classifier followed at 0.694, while the **Custom Tree** classifier reached 0.609. All models demonstrated a clear signal above the random baseline (AUC = 0.5). 
 
 Two additional key metrics are precision and recall, combined into F1, which describe how often predicted churners are truly churners (**precision**) and how many of the total true churners we successfully caught (**recall**). The **F1** value shows the harmonic mean measurement of these two values. 
 
